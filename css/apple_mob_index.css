@@ -1,0 +1,53 @@
+@media all and (max-width:800px) {
+
+  .header {
+  }
+
+  .nav {
+    width:100%;
+
+    display: flex;
+    flex-flow:row nowrap;
+  }
+
+  .nav>ul {
+    width:100%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left:10px;
+  }
+
+  .nav ul li {
+  display:none;
+}
+
+.nav ul li:first-child {
+  display:block;
+}
+
+.nav .m_iconmenu li {
+  display:block;
+}
+
+.nav .m_iconmenu {
+  width:20%;
+  margin-right:10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.banner {
+  height:90px;
+  line-height:1.5;
+
+  display:flex;
+  flex-flow:column wrap;
+  justify-content: center;
+
+}
+
+
+}
+
